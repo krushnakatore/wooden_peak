@@ -14,7 +14,7 @@ export const siteConfig = {
     e164: '+918788442429', // [Add verified phone number in E.164 format]
   },
   whatsapp: {
-    number: '918788442429', // [Add verified WhatsApp Business number, digits only, country code first]
+    number: '91 8788442429', // [Add verified WhatsApp Business number, digits only, country code first]
     defaultMessage: "Hello MeaningWood Crafts, I'd like to enquire about wholesale wooden handicrafts.",
   },
   address: {
