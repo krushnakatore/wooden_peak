@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-ink antialiased;
+    background-image: linear-gradient(rgba(253, 251, 247, 0.22), rgba(253, 251, 247, 0.22)), url('/photos/stock/wood-rings-texture.jpg');
+    background-size: auto, cover;
+    background-position: center, center;
+    background-attachment: fixed, fixed;
+    background-repeat: repeat, no-repeat;
+  }
+
+  ::selection {
+    @apply bg-seagreen/20 text-ocean;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-ocean/20;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-ocean/40;
+  }
+}
