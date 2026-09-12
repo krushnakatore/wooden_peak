@@ -10,11 +10,11 @@ export const siteConfig = {
     general: 'hello@meaningwood.com', // [Add verified general email]
   },
   phone: {
-    display: '+91 98XXX XXXXX', // [Add verified phone number]
-    e164: '+9198XXXXXXXX', // [Add verified phone number in E.164 format]
+    display: '+91 8788442429', // [Add verified phone number]
+    e164: '+918788442429', // [Add verified phone number in E.164 format]
   },
   whatsapp: {
-    number: '919800000000', // [Add verified WhatsApp Business number, digits only, country code first]
+    number: '918788442429', // [Add verified WhatsApp Business number, digits only, country code first]
     defaultMessage: "Hello MeaningWood Crafts, I'd like to enquire about wholesale wooden handicrafts.",
   },
   address: {
